@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CRM</title>
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="icon" href="icon-192.png" />
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js');
+    }
+  </script>
+</head>
+<body style="text-align: center; padding: 2rem; font-family: sans-serif;">
+  <h1>Odoo</h1>
+  <p>SIAK Sistemi</p>
+  <!-- Cambiato: rimosso target="_blank" per aprire nello stesso window (PWA) -->
+  <a href="https://siaksistemi.com/odoo/crm"
+     style="display: inline-block; padding: 1rem 2rem; background-color: #714B67; color: white; border-radius: 8px; text-decoration: none; font-size: 1.2rem;">
+    Apri modulo CRM
+  </a>
+</body>
+</html>
