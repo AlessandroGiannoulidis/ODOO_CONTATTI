@@ -1,6 +1,6 @@
 {
-  "name": "Odoo CRM",
-  "short_name": "CRM",
+  "name": "Odoo CONTATTI",
+  "short_name": "CONTATTI",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
